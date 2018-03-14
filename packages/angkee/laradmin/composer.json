@@ -1,0 +1,24 @@
+{
+    "name": "angkee/laradmin",
+    "description": "Laradmin is a laravel package for can be generated fast backend management panel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wujishuang",
+            "email": "312369392@qq.com"
+        }
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "Angkee\\Laradmin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Angkee\\Laradmin\\Tests\\": "tests/"
+        }
+    }
+}

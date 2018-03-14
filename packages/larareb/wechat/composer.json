@@ -1,0 +1,22 @@
+{
+    "name": "larareb/wechat",
+    "description": "这个是微信开发的包",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wujishuang",
+            "email": "312369392@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "LaraReb\\Wechat\\": "src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "LaraReb\\Wechat\\Tests\\": "tests/"
+        }
+    }
+}
